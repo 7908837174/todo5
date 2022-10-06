@@ -1,0 +1,26 @@
+body{
+    background: url("https://source.unsplash.com/random/1920x1080/?wallpaper,landscape'");
+}
+.main-container{
+    margin-top: 5%;
+    margin-left:32%;
+    text-align: center;
+    width: 40%;
+}
+
+.task-container{
+   width: 60%;
+    margin: auto;
+    background: transparent;
+}
+.list-group-item{
+    background: transparent;
+}
+.card-header{
+    text-align: center;
+    
+}
+.add-btn{
+    background-color: rgb(116, 130, 142);
+    color: white;
+}
