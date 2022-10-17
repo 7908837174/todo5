@@ -43,7 +43,7 @@ body{
     /* text-decoration: none; */
     background-color: cyan;
     opacity: 0.5;
-    padding: 2px;
+    padding: 3px;
     border-radius: 4px;
 }
 .gitrepo a:hover{
