@@ -1,28 +1,38 @@
 body{
     background: url("https://source.unsplash.com/random/1920x1080/?wallpaper,landscape'");
+    box-sizing: border-box;  
+    font-family: 'Poppins', sans-serif;
 }
 .main-container{
-    margin-top: 5%;
+    margin-top:5%;
     margin-left:32%;
     text-align: center;
-    width: 40%;
+    width:40%;
 }
 
 .task-container{
-   width: 60%;
+   width:100%;
     margin: auto;
-    background: transparent;
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 10rem;
 }
 .list-group-item{
     background: transparent;
+    border: 2px solid black;
 }
 .card-header{
-    text-align: center;
-    
+    text-align: center;   
+    font-weight: bold;
+    font-size: 25px;
 }
 .add-btn{
-    background-color: rgb(116, 130, 142);
+    background-color: rgb(66, 70, 72);
     color: white;
+    margin-left: 5px;
 }
 .gitrepo{
     background-color: rgb(10, 90, 157);
@@ -36,7 +46,7 @@ body{
     height:3.2vh;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 300;
+    font-weight: bold;
 }
 .gitrepo a{
     color:  rgb(4, 31, 40);
