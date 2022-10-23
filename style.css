@@ -1,10 +1,7 @@
 body{
     background: url("https://source.unsplash.com/random/1920x1080/?wallpaper,landscape'");
-    background-repeat: no-repeat;
     box-sizing: border-box;  
     font-family: 'Poppins', sans-serif;
-    height: 90vh;
-    width: 90vw;
 }
 .main-container{
     margin-top:5%;
@@ -13,12 +10,8 @@ body{
     width:40%;
 }
 
-#form1{
-    width: 30vw;
-}
-
 .task-container{
-   width:90vw;
+   width:100%;
     margin: auto;
     background: white;
     font-family: 'Times New Roman', Times, serif;
@@ -46,16 +39,18 @@ body{
     opacity: 1;
     border :1px  rgb(122, 153, 106);
     color : white;
+    /* position: absolute; */
     position: fixed;
     top: 0;
     width:100%;
-    height:2rem;
+    height:3.2vh;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
 .gitrepo a{
     color:  rgb(4, 31, 40);
+    /* text-decoration: none; */
     background-color: cyan;
     opacity: 0.5;
     padding: 3px;
@@ -66,57 +61,4 @@ body{
     background-color: greenyellow;
     opacity: 1;
     text-decoration: none;
-}
-
-.tasks{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    margin: 10px;
-    border: 3px solid rgb(221, 243, 62);
-    border-radius: 10px;
-    background: transparent;
-}
-
-.content{
-    margin: 8px;
-    border: 2px solid grey;
-    border-radius: 5px;
-}
-
-#edit{
-    margin: 10px 5px;
-    background: blue;
-    color: white;
-}
-#delete{
-    background: red;
-    color: white;
-}
-#searchbar{
-    width: 72%;
-    height: 2rem;
-    margin: 10px;
-    border: 3px solid black;
-}
-
-#a{
-    display: flex;
-    flex-direction: row;
-    padding-left: 15%;
-    margin: 20px;
-}
-
-#form{
-    margin: 0px 10px;
-    height: 20%;
-}
-
-#add-task{
-    height: 40%;
-    border: 3px solid black;
-}
-#task-list{
-    border: 4px solid green;
-    border-radius: 10px;
 }
