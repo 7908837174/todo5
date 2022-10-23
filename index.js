@@ -23,6 +23,7 @@ window.addEventListener('load', ()=>{
           input_text.id='task';
           input_text.setAttribute("readonly","readonly");
           input_text.value=value;
+          input_text.style.cssText='background:transparent; text-align:center;color:yellow;border-radius: 20px;'
           task_input.appendChild(input_text);
 
           const input_action=document.createElement('div');
@@ -32,13 +33,14 @@ window.addEventListener('load', ()=>{
           const edit=document.createElement('button');
           edit.id='edit';
           edit.innerText='Edit';
+          edit.style.cssText+='background: rgb(105, 105, 247);border-radius:10px'
           input_action.appendChild(edit);
           edit.addEventListener('click',function(e){
               if(edit.innerText=='Edit'){
                   input_text.removeAttribute('readonly');
                   input_text.focus();
                   edit.innerText='Save';
-                  edit.style.background='green';
+                  edit.style.cssText+='background:green;border-radius:10px'
               }
               else{
                   if(input_text.value=="")
@@ -49,13 +51,14 @@ window.addEventListener('load', ()=>{
                   else{
                       input_text.setAttribute('readonly','readonly');
                       edit.innerText='Edit';
-                      edit.style.background='blue';
+                      edit.style.cssText+='background: rgb(105, 105, 247);border-radius:10px'
                   }
               }
           });
           const del=document.createElement('button');
           del.id='delete';
           del.innerText='Delete';
+          del.style.cssText+='border-radius:10px;';
           input_action.appendChild(del);
           del.addEventListener('click',function(d){
               if(confirm("This will delete the task from your task-list?"))

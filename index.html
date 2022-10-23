@@ -39,7 +39,7 @@
           top: 0px;
           border: 0px;
           right: 0px;
-          height: 1em;
+          height: 5rem;
         "
       >
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -56,20 +56,21 @@
         ></path></svg></a>
 
     
-    <div class="main-container mx-auto">
-      <h2 class="heading">To Do List</h2>
+  <div class="main-container mx-auto">
+      <h2 class="heading" style="color:white">To Do List</h2>
       <input type="text" onkeyup="searchtask()" id="searchbar" placeholder="Search task">
         <div id="a">
             <button class="add-btn btn btn-outline" onclick="window.location.reload()" ><i class="fa fa-refresh"></i></button>
           <form id="form">
-            <input type="text" name="add task" id="add-task" placeholder="What are you want to do?">
-            <input type="submit" class="add-btn btn btn-outline" value="Add Task">
+            <input type="text" name="add task" id="add-task" placeholder="What are you want to do?" style="text-align: center; font-width:bold">
+            <input type="submit" class="add-btn btn" value="Add Task">
           </form>
        </div>
     <div id="task-list" style="width:25rem" class="mx-auto">
-      <div class="card-header"  style="background-color: rgb(226, 210, 210)">
-        Tasks
+      <div class="card-header"  style="background-color: transparent; color:rgb(247, 157, 157);">
+        Your Tasks
       </div>
+    </div>
   </div>
   </body>
 

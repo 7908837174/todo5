@@ -1,5 +1,6 @@
 body{
-    background: url("https://source.unsplash.com/random/1920x1080/?wallpaper,landscape'");
+    /* background: url("https://source.unsplash.com/random/1920x1080/?wallpaper,landscape'"); */
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     background-repeat: no-repeat;
     box-sizing: border-box;  
     font-family: 'Poppins', sans-serif;
@@ -11,10 +12,10 @@ body{
     margin-left:32%;
     text-align: center;
     width:40%;
-}
-
-#form1{
-    width: 30vw;
+    border: 2px solid rgb(177, 118, 249);
+    box-shadow: 5px 10px 8px 2px #575064;
+    border-radius: 18px;
+    background-color: #302b63;
 }
 
 .task-container{
@@ -73,31 +74,39 @@ body{
     flex-direction: row;
     padding: 10px;
     margin: 10px;
-    border: 3px solid rgb(221, 243, 62);
+    /* border: 3px solid rgb(221, 243, 62); */
     border-radius: 10px;
     background: transparent;
 }
 
 .content{
-    margin: 8px;
-    border: 2px solid grey;
-    border-radius: 5px;
+    margin: 10px;
+    /* border: 2px solid grey; */
+    background-color: rgb(89, 73, 155);
+    border-radius: 20px;
 }
 
 #edit{
     margin: 10px 5px;
-    background: blue;
+    background: rgb(105, 105, 247);
     color: white;
 }
 #delete{
-    background: red;
+    margin: 10px 5px;
+    background: rgb(237, 72, 72);
     color: white;
 }
 #searchbar{
+    color: rgb(247, 157, 157);
     width: 72%;
     height: 2rem;
     margin: 10px;
-    border: 3px solid black;
+    /* border: 3px solid rgb(193, 142, 251); */
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background: transparent;
 }
 
 #a{
@@ -110,13 +119,20 @@ body{
 #form{
     margin: 0px 10px;
     height: 20%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background: transparent;
 }
 
 #add-task{
     height: 40%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    background: transparent;
+    border-radius: 15px;
+    color: rgb(248, 236, 7);
 }
 #task-list{
-    border: 4px solid green;
+    /* border: 4px solid green; */
     border-radius: 10px;
 }
