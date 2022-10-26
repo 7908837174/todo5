@@ -8,10 +8,10 @@ body{
     width: 90vw;
 }
 .main-container{
-    margin-top:5%;
-    margin-left:32%;
+    margin: 5% auto;
     text-align: center;
-    width:40%;
+    width: 40%;
+    min-width: 550px;
     border: 2px solid rgb(177, 118, 249);
     box-shadow: 5px 10px 8px 2px #575064;
     border-radius: 18px;
@@ -19,7 +19,7 @@ body{
 }
 
 .task-container{
-   width:90vw;
+   width: 90vw;
     margin: auto;
     background: white;
     font-family: 'Times New Roman', Times, serif;
@@ -113,7 +113,7 @@ body{
     display: flex;
     flex-direction: row;
     padding-left: 15%;
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 #form{
