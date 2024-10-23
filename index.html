@@ -61,13 +61,15 @@
   <div class="main-container mx-auto">
       <h2 class="heading" style="color:white; margin: 3% 0 1% 0">To Do List</h2>
       <input type="text" onkeyup="searchtask()" id="searchbar" placeholder="Search task">
-        <div id="a">
-            <button class="add-btn btn btn-outline" onclick="window.location.reload()" ><i class="fa fa-refresh"></i></button>
-          <form id="form">
+      <div id="a">
+        <button class="add-btn btn btn-outline" onclick="window.location.reload()"><i class="fa fa-refresh"></i></button>
+        <form id="form">
             <input type="text" name="add task" id="add-task" placeholder="What do you want to do?" style="text-align: center; font-weight: bold">
-            <input type="submit" class="add-btn btn" value="Add Task">
-          </form>
-       </div>
+            <button type="button" id="date-btn" class="add-btn btn" style="background-color: black;">Add Date</button>
+            <input type="submit" class="add-btn btn" style="background-color: black;" value="Add Task">
+        </form>
+    </div>
+    
     <div id="task-list" style="width:25rem" class="mx-auto">
       <div class="card-header"  style="background-color: transparent; color:rgb(247, 157, 157);">
         Your Tasks
